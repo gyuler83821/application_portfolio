@@ -6,17 +6,24 @@ Therefore, this algorithm can find the exit in the end.
 > 此演算法的規則是會記錄走過的路，並且不會再次走死胡同的路，如果遇到死路則會回頭找還沒走過的路當路徑
 
 ## Program Introduction
-* `getNumExit` : It can check the next step of eight cobinations if is valid.   
-If the next step is valid, and it will compute the exists the next step owns then return the value.  
-If the next step is invalid, and it will allow return -1 meaning that the step can not be pass.  
-> 進行路徑的擴張，如果發現不能通行則把位置標示-1，如果可以通行則計算下個可能的路徑的出口數
+#### parameters  
+`route_x` / `route_y` (type:stack) : store route the mouse had passed  
 
-* `output` : It's a function only when the knight has no exit to go will be called.  
-> 如果迷宮是死胡同則呼叫此函式
+`current_x` / `current_y` : store the current position  
 
-* `main` : Firstly, we initialize the disk 8x8 and its value all of 0. Then according to the situation change the value of unused cells to -1. Secondly, we enter the `getNumExit` function to find out the next step knight should go.  
-**Noted** : But if all next steps can not be passed (numFalse:number of cannot-pass), call the `output` function, and end the program. 
-> 即時更新走過的路徑並呼叫 `getNumExit`
+`step_found` : every round whether the current position find the possible exit  
 
-If the process confirms that the knight has the road, then we find out the next step owning least exits.
-Recording every step, and print out the result in th end.
+`found` : whether the mouse find the exit  
+
+#### process
+Firstly, we read the input data and find the started position and ended position. 
+Next,we try every posibble direction then push it into the stack(route).
+Every time we find the posibble direction, allowing the current position '\*'.
+If there is no posibble direction can pass :  
+* `step==2` : **return the started position**  
+there is no route for the maze, break out the for loop  
+
+* `step!=2` : **just go back the previous step**  
+current position='1'(block) ,pop the top data and then continue search the possible direction  
+
+In the end, if `found==true` ,then print out the result.  
