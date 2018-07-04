@@ -1,5 +1,5 @@
-# portfolio 大一部份程式成果
-## program from several classes in the past year in NCKU.
+# portfolio (備審資料)大一程式作品
+> program from several classes experience in the past year in NCKU.
 
 In the past year, I have attended in some classes learning language **python, C++ and C**, and this repository is the work set about my experience.  
 
@@ -7,7 +7,7 @@ In the past year, I have attended in some classes learning language **python, C+
 而在修習各樣程式課程當中，部份程式碼成果較具代表性，特此列出說明：
 
 * **python** :   
-`Black Jcak Game` : 二十一點遊戲實作  
+`Black Jack Game` : 二十一點遊戲實作  
 `K-means` : K-means演算法實作  
 `Simple Candy Crush` : Candy Crush 基本運作規則實作  
 > 在統計系修習**計算機概論**及**資料科學導論**所累積的程式實作
