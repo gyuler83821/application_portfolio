@@ -1,4 +1,4 @@
-# Mouse in a Maze 老鼠走迷宮(遞迴)
+# Mouse in a Maze 老鼠走迷宮
 
 ## Algorithm Introduction
 This algorithm is aiming finding the path to the exit. Moreover, the road which was passed before will not be passed again. 
