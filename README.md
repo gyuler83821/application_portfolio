@@ -17,6 +17,7 @@ In the past year, I have attended in some classes learning language **python, C+
 [8]: https://github.com/gyuler83821/application_portfolio/tree/master/Invoice
 [9]: empty
 [10]: https://github.com/gyuler83821/application_portfolio/tree/master/Map
+[11]: https://plot.ly/~gyuler83821/148
 
 | 年 / 月   |  語言        |    內容             |         說明                           |  課程  |  
 |:--------: | :----------:|:-------------------:|:-----------:|:--------:|    
@@ -34,5 +35,5 @@ In the past year, I have attended in some classes learning language **python, C+
 
 | 年 / 月  | 語言    | 內容                          |       說明                        |  課程                        |  
 |:--------: | :----------:|:-----------------------:|:---------------------------------:|:---------------------------:|  
-| 2018/05   | python      | [YLD資料視覺化][9]       | 將一百多個國家依據年份做成可調動畫   | **當代全球健康議題**期末報告  | 
+| 2018/05   | python      | [YLD資料視覺化][9]       | 將一百多個國家依據年份做成[可調動畫][11]   | **當代全球健康議題**期末報告  | 
 | 2018/06   | python      | [麥當勞捷運站位置探討][10]| 麥當勞與捷運站在地圖相對位置討論     | **空間資訊概論**期末報告      |  
