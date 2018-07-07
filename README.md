@@ -15,6 +15,8 @@ In the past year, I have attended in some classes learning language **python, C+
 [6]: https://github.com/gyuler83821/application_portfolio/tree/master/Kobe%20Shot%20Type%20Prediction
 [7]: https://github.com/gyuler83821/application_portfolio/tree/master/Star%20Prediction
 [8]: https://github.com/gyuler83821/application_portfolio/tree/master/Invoice
+[9]: empty
+[10]: https://github.com/gyuler83821/application_portfolio/tree/master/Map
 
 | 年 / 月   |  語言        |    內容             |         說明                           |  課程  |  
 |:--------: | :----------:|:-------------------:|:-----------:|:--------:|    
@@ -26,3 +28,11 @@ In the past year, I have attended in some classes learning language **python, C+
 | 2018/03      | python       | [K-means][5]  | 從頭到尾實作出K-means演算法過程      | **資料科學導論**修課 |  
 | 2018/05      | python       | [投籃方式預測][6] | 預測Kobe Bryant投籃方式 | **資料科學導論**修課 |  
 | 2018/06      | python       | [星等預測][7] | 藉由使用者評論預測商家星等 | **資料科學導論**修課 |  
+
+***  
+而在其它課程當中，自己也利用程式實作出關於報告的內容，如以下程式範例：  
+
+| 年 / 月  | 語言    | 內容                          |       說明                        |  課程                        |  
+|:--------: | :----------:|:-----------------------:|:---------------------------------:|:---------------------------:|  
+| 2018/05   | python      | [YLD資料視覺化][9]       | 將一百多個國家依據年份做成可調動畫   | **當代全球健康議題**期末報告  | 
+| 2018/06   | python      | [麥當勞捷運站位置探討][10]| 麥當勞與捷運站在地圖相對位置討論     | **空間資訊概論**期末報告      |  
