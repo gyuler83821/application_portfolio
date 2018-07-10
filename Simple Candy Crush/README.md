@@ -18,7 +18,7 @@ Then the program implement crushing candies according to the following rules:
 * If there does not exist more candies that can be crushed (ie. the board is stable), then return the current board.  
 > 重覆執行到格子內的數字是穩定狀態(沒有相同三個以上數字相連)，輸出檔案
 
-## Program Introduction
+## Program
 * **table / newtable:** the matrix storing numbers  
 * **booltable:** the boolean matrix storing if the position has number  
 
