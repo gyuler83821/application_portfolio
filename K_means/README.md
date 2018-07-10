@@ -15,7 +15,7 @@ group it to the nearest point from the previously assigned points.
 > 重新計算群體中心點直到群體中心穩定
 
 ***
-## Program Introduction  
+## Program  
 #### parameters  
 * **xpoints** : storing the previous groups' center  
 
