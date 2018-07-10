@@ -9,7 +9,7 @@ As a result, I do this final report with `plotly` and `Mapbox` by using API offe
 
 [1]: https://data.gov.tw/dataset/61792
 
-# Tool Introduction  
+# Tool  
 * **Open Data** : The [metro data][1] is offered by government opendata website.  
 
 * **Google API** : We will collect McDonald data by using this service.  
@@ -18,7 +18,7 @@ As a result, I do this final report with `plotly` and `Mapbox` by using API offe
 
 * **Mapbox** : The map service which can help us to tag data on the map directly.  
 
-# Program Introduction  
+# Program  
 
 * `Read Metro Data` : In this part, we read the csv file to gain all metro stations' name(108 station) and print it out.
 
