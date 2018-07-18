@@ -1,11 +1,11 @@
 # Mouse in a Maze 老鼠走迷宮
 
-## Algorithm Introduction
+## Algorithm
 This algorithm is aiming finding the path to the exit. Moreover, the road which was passed before will not be passed again. 
 Therefore, this algorithm can find the exit in the end.  
 > 此演算法的規則是會記錄走過的路，並且不會再次走死胡同的路，如果遇到死路則會回頭找還沒走過的路當路徑
 
-## Program Introduction
+## Program
 #### parameters  
 `route_x` / `route_y` (type:stack) : store route the mouse had passed  
 
