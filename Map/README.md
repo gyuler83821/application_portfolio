@@ -42,7 +42,7 @@ Moverover, we also compute the percentage of Mcdonlod's stores nearing KFC of it
 In the end, we only access columns of lontitude and latitude then return them.
   * `geocode` is the function that helps convert location name into coordinate system.  
   
-  * `place_radr` is the function that gets data(keyword) from the assigned spot(location) near area(radius).
+  * `place_radar` is the function that gets data(keyword) from the assigned spot(location) near area(radius).
   
   #### visualization  
   ###### part 1
