@@ -38,5 +38,4 @@ And I think that `period`, `opponent`, `shot_zone_area`, `behind, playoffs`, `se
 After doing classify the columns, then we impute the nan value by using function called `Imputer()`.
 As all preprocessing finished, we import the algorithm called **`Random Forest`** to train the model of analysis and predict data.  
 
-## Program  
 
